@@ -40,7 +40,7 @@ class SinglyLinkedList {
         }
         return current
     }
-
+    //shift
     shift() {
         if (!this.head) return undefined;
         var currentHead = this.head;
